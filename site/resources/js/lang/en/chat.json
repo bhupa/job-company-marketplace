@@ -1,0 +1,45 @@
+{
+  "chat": "Chat",
+  "messages": "Messages",
+  "search": "Search",
+  "noChatAvailable": "No chat history available!",
+  "startConversation": "Please start your conversation",
+  "typeYourMessage": "Type your message...",
+  "roomUnavailable": "Chatroom unavailable!",
+  "subscribeSuperchat": "Subscribe SUPERCHAT feature for this chat!",
+  "lifetime": "Lifetime",
+  "superchatSubscriptionDescription": "Subscription will be valid only for this chat. You will need to subscribe this feature separately for each chat!",
+  "features": "Features",
+  "messageRequest": "Message Request",
+  "requestPending": "Request Pending",
+  "yourRequestIsPending": "Your request is pending!",
+  "requestPendingMessage1": "You can start conversation once",
+  "requestPendingMessage2": "accepts your requests.",
+  "hasSentYouChatRequest": "has sent you a chat request.",
+  "adminAssist": {
+    "title": "Admin Assist",
+    "success": "Admin has been notified for assist.",
+    "description": "Do you want to notify admin for assist?"
+  },
+  "youCanStartConversation": "You can now start conversation.",
+  "deleteChat": {
+    "title": "Are you sure to unmatch and delete this chat?"
+  },
+  "seen": "Seen",
+  "sent": "Sent",
+  "cannotReplyToConversation": "You can't reply to this conversation!",
+  "unreadMessages": "Unread Messages",
+  "unrestrictedChatAccess": "You have access to unrestricted chat!",
+  "unrestrictedChat": {
+    "title": "Unrestricted Chat",
+    "description": "Do you want to notify admin to enable this feature?",
+    "success": "Please check your email for confirmation.",
+    "payTitle": "Please select payment method to enable unrestricted chat"
+  },
+  "restrictedChat": "Restricted Chat",
+  "chatDetail": "Chat Detail",
+  "help": "Help",
+  "deletedAccount": "Deleted Account",
+  "deactivatedAccount": "Deactivated Account",
+  "bannedAccount": "Banned Account"
+}

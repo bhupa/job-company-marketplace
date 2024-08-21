@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="59" viewBox="0 0 58 59">
+  <defs>
+    <filter id="Circle" x="0" y="0" width="58" height="59" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#939393" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Close" transform="translate(7.314 7.615)">
+    <g transform="matrix(1, 0, 0, 1, -7.31, -7.62)" filter="url(#Circle)">
+      <ellipse id="Circle-2" data-name="Circle" cx="21.5" cy="22" rx="21.5" ry="22" transform="translate(7.5 7.5)" fill="#fff"/>
+    </g>
+    <g id="Close_Icon" transform="translate(13.371 13.371)">
+      <path id="Close_Icon_" d="M78.651,368.69a1.261,1.261,0,0,0-1.788,0l-6.2,6.187-6.2-6.2a1.264,1.264,0,0,0-1.787,1.788l6.2,6.2-6.2,6.2a1.265,1.265,0,0,0,.41,2.062,1.272,1.272,0,0,0,.967,0,1.259,1.259,0,0,0,.41-.275l6.2-6.2,6.2,6.2a1.26,1.26,0,0,0,.41.275,1.271,1.271,0,0,0,.967,0,1.265,1.265,0,0,0,.41-2.062l-6.2-6.2,6.2-6.2A1.271,1.271,0,0,0,78.651,368.69Z" transform="translate(-62.308 -368.308)" fill="#acacac"/>
+    </g>
+  </g>
+</svg>

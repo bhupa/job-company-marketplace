@@ -1,0 +1,155 @@
+{
+  "somethingWrong": "不具合が起こりました。",
+  "tokenExpire": "トークンの有効期限が切れています。再度ログインしてください。",
+  "jobSeeker": {
+    "name": {
+      "lastName": "必須項目です。"
+    },
+    "gender": {
+      "empty": "性別選択してください。"
+    }
+  },
+  "register": {
+    "phoneExists": "電話番号すでに登録されています。",
+    "success": "登録に成功しました"
+  },
+  "profile": {
+    "success": "プロフィールの作成に成功しました",
+    "updateSuccess": "プロフィールを更新しました",
+    "image": {
+      "success": "画像アップロード完了しました。",
+      "logoRequired": "企業ロゴ必須です。",
+      "profilePictureRequired": "プロフィール画像は必須項目です"
+    }
+  },
+  "account": {
+    "deleted": "アカウントの削除成功しました。",
+    "deactivated": "アカウントが無効化されました。"
+  },
+  "facebook": {
+    "cancelled": "Facebookログインキャンセルしました。",
+    "loginFailed": "Facebookログイン失敗しました。"
+  },
+  "google": {
+    "cancelled": "Googleログイン失敗しました。",
+    "inProgress": "Googleログイン成功しました。",
+    "playServiceUnavailable": "プレイサービスは利用できません!"
+  },
+  "otp": {
+    "sendSuccess": "認証コードが送信されました。",
+    "resendSuccess": "メールアドレスに認証コード再送信されました。",
+    "firebaseResendSuccess": "OTP コードが再送信されました。",
+    "invalidCode": "認証コードあっていません。"
+  },
+  "password": {
+    "resetSuccess": "パスワードの更新成功しました。"
+  },
+  "language": {
+    "success": "言語更新しました。"
+  },
+  "nothingToUpdate": "更新するものがありません",
+  "job": {
+    "success": "求人作成完了しました。",
+    "updateSuccess": "求人の更新成功しました。",
+    "noDetail": "求人情報不可",
+    "noJobs": "表示する求人がありません。",
+    "deleteSuccess": "ジョブは正常に削除されました。"
+  },
+  "favorite": {
+    "success": "ブックマークに追加しました。",
+    "removeSuccess": "ブックマックから削除されました。"
+  },
+  "request": {
+    "success": "リクエストが更新されました。",
+    "sendSuccess": "リクエストが送信されました。"
+  },
+  "validation": {
+    "changeCountry": "国名は一度設定すると、再度変更することはできません。",
+    "changeCompanyName": "企業名は一度設定すると、再度変更することはできません。",
+    "changeProfileDetails": "それらの詳細は一度設定すると、再度変更することはできません。",
+    "changeDetail": "これらの詳細は一度設定すると、再度変更することはできません。",
+    "emailRequired": "Emailは必須です。",
+    "invalidEmail": "有効なEmailを入力してください。",
+    "invalidPassword": "パスワードには少なくとも 8 文字を含める必要があります。",
+    "emptyPassword": "パスワードは必須です。",
+    "phoneRequired": "電話番号は必須です。",
+    "invalidPhone": "有効な電話番号を入力してください。",
+    "emailPhoneRequired": "Emailまたは電話番号は必須です。",
+    "invalidEmailPhone": "有効なEmailまたは電話番号を入力してください。",
+    "passwordUnmatched": "パスワードと確認用パスワードが一致しません。",
+    "confirmPasswordRequired": "確認用パスワードは必須です。",
+    "tooShort": "短すぎます。",
+    "fieldRequired": "この項目は必須です。",
+    "addCompanyProfileImage": "会社の雰囲気が分かる写真を追加してください。",
+    "writeAboutCompany": "会社について説明してください。",
+    "selectWorkLocation": "勤務地を選んでください。",
+    "selectSalaryRange": "給与のレンジを選んでください。",
+    "selectGender": "性別を選んでください。",
+    "selectAgeRange": "年代を選んでください。",
+    "selectOccupation": "職種を選んでください。",
+    "selectJapaneseLevel": "日本語レベルを選んでください。",
+    "enterJobDescription": "職務内容を入力してください。",
+    "selectExperience": "あなたの経験を選択してください。",
+    "selectJobType": "雇用形態を選んでください。",
+    "addProfilePicture": "あなたのプロフィール写真を追加してください。",
+    "mustBeEighteenYears": "18 歳以上である必要があります。",
+    "dob": "生年月日は必須です。",
+    "selectCountry": "あなたの国を選択してください。",
+    "writeAboutYourself": "あなた自身について何か書いてください。",
+    "enterYourName": "あなたの名前を入力してください。",
+    "selectPlanFirst": "まずはプランをお選びください。",
+    "deleteInputError": "アカウントを削除するには、\"delete\" を入力してください。",
+    "jobImageRequired": "仕事の画像は必須です。",
+    "startingSalaryRequired": "初任給の入力は必須です。",
+    "selectPayType": "給与タイプの入力は必須です。",
+    "maxSalarySmall": "最高給与は初任給より大きくなければなりません。",
+    "countryCodeRequired": "国コードは必須です!",
+    "invalidCountryCode": "国コードが無効です!"
+  },
+  "accountVerification": {
+    "empty": "本人確認書類を追加してください。",
+    "success": "本人確認のための書類が送信されました。"
+  },
+  "emptyData": "データなし",
+  "chat": {
+    "startChatMessage": "チャットを開始するにはメッセージを送信してください。",
+    "deleted": "会話が削除されました。"
+  },
+  "payment": {
+    "initiatePaymentFailed": "支払いを開始できませんでした。",
+    "paymentSuccess": "支払い完了",
+    "paymentCanceled": "支払いがキャンセルされました。",
+    "paymentFailed": "支払いに失敗しました。",
+    "couldnotConnectServer": "サーバーに接続できませんでした。",
+    "fillCardDetails": "カード情報を入力してください。",
+    "invalidCardDetails": "あなたのカード番号は無効です。",
+    "invalidExpiryDate": "カードの有効期限が過ぎています。",
+    "invalidCvc": "カードの CVC 番号が無効です。",
+    "subscriptionCanceled": "サブスクリプションが正常にキャンセルされました!"
+  },
+  "reportProfile": {
+    "success": "レポートは正常に提出されました。",
+    "emptyMessage": "ユーザーを報告する理由を入力してください。"
+  },
+  "noInternet": "インターネット接続なし",
+  "emailChange": {
+    "success": "メールアドレスは正常に変更されました。"
+  },
+  "textCopied": "テキストコピーされまいた。",
+  "document": {
+    "fileUploadCancelled": "ファイルのアップロードがキャンセルされました。",
+    "fileAccess": "ファイルアクセス",
+    "accessDocumentFiles": "あなたの文書ファイルへのアクセスを求められています。",
+    "notProvidedPermission": "デバイス内のドキュメントにアクセスする許可がありません。",
+    "allowAccess": "アクセスを許可"
+  },
+  "introductionVideo": {
+    "duration": "2分未満の動画をアップロードしてください",
+    "size": "２５MB以内の動画アップロードしてください"
+  },
+  "accountDelete": {
+    "selectReasonForCancellation": "対価理由を選択してください",
+    "selectFuturePlanOption": "回答を選択してください",
+    "selectHighFeesOption": "回答を選択してください"
+  }
+}

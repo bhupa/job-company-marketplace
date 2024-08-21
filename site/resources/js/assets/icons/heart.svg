@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Like" transform="translate(-0.012)">
+    <circle id="Oval" cx="25" cy="25" r="25" transform="translate(0.012)" fill="#ef4765"/>
+    <path id="Icon" d="M21.162,1.768a6.033,6.033,0,0,0-8.535,0L11.465,2.931,10.3,1.768A6.035,6.035,0,0,0,1.768,10.3L2.93,11.465,11.465,20,20,11.465,21.162,10.3a6.033,6.033,0,0,0,0-8.535Z" transform="translate(13.136 15)" fill="#fff"/>
+  </g>
+</svg>

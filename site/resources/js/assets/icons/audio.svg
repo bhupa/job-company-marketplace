@@ -1,0 +1,10 @@
+<svg id="audio" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Ellipse_5" data-name="Ellipse 5" d="M24,0A24,24,0,1,1,0,24,24,24,0,0,1,24,0Z" fill="currentColor"/>
+  <path id="Vector_7" data-name="Vector 7" d="M0,0V2.433" transform="translate(12.387 22.968)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector_11" data-name="Vector 11" d="M0,0V2.433" transform="translate(35.613 25.401) rotate(-180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector_8" data-name="Vector 8" d="M0,0V4.866" transform="translate(16.258 21.751)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector_12" data-name="Vector 12" d="M0,0V4.866" transform="translate(31.742 26.617) rotate(-180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector_9" data-name="Vector 9" d="M0,0V6.488" transform="translate(20.129 20.94)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector_13" data-name="Vector 13" d="M0,0V6.488" transform="translate(27.871 27.428) rotate(-180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector_10" data-name="Vector 10" d="M0,0V12.387" transform="translate(24 17.807)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

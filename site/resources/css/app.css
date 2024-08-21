@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn-primary {
+    background-color: theme('colors.BLUE_004D80');
+  }
+
+  .btn-primary:hover {
+    background-color: theme('colors.BLUE_004D80E0') !important;
+  }
+
+  .card {
+    @apply rounded-md shadow-sm hover:shadow-md;
+    border: 1px solid theme('colors.WHITE_F6F6F6');
+  }
+
+  .text-shadow-black {
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+  }
+
+}
+
+.ant-spin {
+  @apply flex w-full justify-center;
+  z-index: 5000;
+}
+
+.PhoneInputInput:focus-visible {
+  outline: none;
+}
+
+.match-modal .ant-modal-content {
+  background-color: theme('colors.BLACK_000000E2') !important;
+}
+
+.match-modal .ant-btn:hover {
+  color: theme('colors.white') !important;
+  background-color: theme('colors.BLACK_656565');
+}
+
+.ant-textarea-resize-disabled.ant-input {
+  resize: none;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}

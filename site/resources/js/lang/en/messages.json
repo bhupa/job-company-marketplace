@@ -1,0 +1,155 @@
+{
+  "somethingWrong": "Something went wrong!",
+  "tokenExpire": "Token has expired! Please login again.",
+  "jobSeeker": {
+    "name": {
+      "lastName": "Last name is required!"
+    },
+    "gender": {
+      "empty": "Please select your gender!"
+    }
+  },
+  "register": {
+    "phoneExists": "Phone number already exists!",
+    "success": "Registered successfully!"
+  },
+  "profile": {
+    "success": "Profile created successfully!",
+    "updateSuccess": "Profile updated successfully!",
+    "image": {
+      "success": "Image updated successfully!",
+      "logoRequired": "Company logo is required!",
+      "profilePictureRequired": "Profile Picture is required!"
+    }
+  },
+  "account": {
+    "deleted": "Account has been deleted successfully!",
+    "deactivated": "Account has been deactivated successfully!"
+  },
+  "facebook": {
+    "cancelled": "Facebook login cancelled!",
+    "loginFailed": "Could not login with facebook!"
+  },
+  "google": {
+    "cancelled": "Google login cancelled!",
+    "inProgress": "Google sign in is in progress!",
+    "playServiceUnavailable": "Play services not available!"
+  },
+  "otp": {
+    "sendSuccess": "OTP code has been sent to your email.",
+    "resendSuccess": "OTP code has been resent to your email!",
+    "firebaseResendSuccess": "OTP code has been resent!",
+    "invalidCode": "Invalid OTP code!"
+  },
+  "password": {
+    "resetSuccess": "Password has been reset successfully!"
+  },
+  "language": {
+    "success": "Language changed!"
+  },
+  "nothingToUpdate": "No changes to update!",
+  "job": {
+    "success": "Job created successfully!",
+    "updateSuccess": "Job updated successfully!",
+    "noDetail": "Job detail unavailable!",
+    "noJobs": "You have no jobs at the moment!",
+    "deleteSuccess": "Job deleted successfully!"
+  },
+  "favorite": {
+    "success": "Added to favorite successfully!",
+    "removeSuccess": "Removed from favorite!"
+  },
+  "request": {
+    "success": "Request updated successfully!",
+    "sendSuccess": "Request has been sent successfully!"
+  },
+  "validation": {
+    "changeCountry": "You won't be able to change country again.",
+    "changeCompanyName": "You won't be able to change name again.",
+    "changeProfileDetails": "You won't be able to change these details later.",
+    "changeDetail": "You won't be able to change this detail later.",
+    "emailRequired": "Email is required!",
+    "invalidEmail": "Enter valid email address!",
+    "invalidPassword": "Password must contain at least 8 characters!",
+    "emptyPassword": "Password cannot be empty!",
+    "phoneRequired": "Phone number is required!",
+    "invalidPhone": "Enter valid phone number!",
+    "emailPhoneRequired": "Email or Phone number is required!",
+    "invalidEmailPhone": "Enter valid email or phone number!",
+    "passwordUnmatched": "Password and confirm password do not match!",
+    "confirmPasswordRequired": "Confirm Password is required!",
+    "tooShort": "Too short!",
+    "fieldRequired": "This field is required!",
+    "addCompanyProfileImage": "Please add your company profile image!",
+    "writeAboutCompany": "Please write something about company!",
+    "selectWorkLocation": "Please select work location!",
+    "selectSalaryRange": "Please select salary range!",
+    "selectGender": "Please select gender!",
+    "selectAgeRange": "Please select age range!",
+    "selectOccupation": "Please select occupation!",
+    "selectJapaneseLevel": "Please select japanese level!",
+    "enterJobDescription": "Please enter job description!",
+    "selectExperience": "Please select your experience!",
+    "selectJobType": "Please select your employment type!",
+    "addProfilePicture": "Please add your profile picture!",
+    "mustBeEighteenYears": "You must be at least 18 years old!",
+    "dob": "Date of birth is required!",
+    "selectCountry": "Please select your country!",
+    "writeAboutYourself": "Please write something about yourself!",
+    "enterYourName": "Please enter your name!",
+    "selectPlanFirst": "Please select a plan first!",
+    "deleteInputError": "Please type “delete” to delete account!",
+    "jobImageRequired": "Job image is required!",
+    "startingSalaryRequired": "Starting salary amount is required!",
+    "selectPayType": "Salary pay type is required!",
+    "maxSalarySmall": "Maximum salary must be greater than starting salary!",
+    "countryCodeRequired": "Country code is required!",
+    "invalidCountryCode": "Invalid country code!"
+  },
+  "accountVerification": {
+    "empty": "Please add verification documents!",
+    "success": "Documents have been sent for verification!"
+  },
+  "emptyData": "No data available!",
+  "chat": {
+    "startChatMessage": "Please send a message to start chat!",
+    "deleted": "Conversation has been deleted!"
+  },
+  "payment": {
+    "initiatePaymentFailed": "Failed to initiate payment!",
+    "paymentSuccess": "Payment successful!",
+    "paymentCanceled": "Payment Canceled!",
+    "paymentFailed": "Payment Failed!",
+    "couldnotConnectServer": "Could not connect to server!",
+    "fillCardDetails": "Please fill up card details!",
+    "invalidCardDetails": "Your card's number is invalid!",
+    "invalidExpiryDate": "Your card's expiration date is in the past!",
+    "invalidCvc": "Your card's CVC number is invalid!",
+    "subscriptionCanceled": "Subscription canceled successfully!"
+  },
+  "reportProfile": {
+    "success": "Your report has been submitted successfully!",
+    "emptyMessage": "Please enter reason for reporting user!"
+  },
+  "noInternet": "No Internet Connection",
+  "emailChange": {
+    "success": "Email has been changed successfully!"
+  },
+  "textCopied": "Text copied to clipboard!",
+  "document": {
+    "fileUploadCancelled": "File upload cancelled!",
+    "fileAccess": "File Access",
+    "accessDocumentFiles": "Please provide access to your document files.",
+    "notProvidedPermission": "You have not provided permission to access documents in your device.",
+    "allowAccess": "Allow Access"
+  },
+  "introductionVideo": {
+    "duration": "Video duration can be of maximum 2 minutes.",
+    "size": "Video size can be of maximum 25 MB."
+  },
+  "accountDelete": {
+    "selectReasonForCancellation": "Please select the reason for cancellation",
+    "selectFuturePlanOption": "Please select future plan option",
+    "selectHighFeesOption": "Please select high fees option"
+  }
+}

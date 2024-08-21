@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22">
+  <g id="icon_Calendar" data-name="icon/Calendar" transform="translate(1 1)">
+    <g id="Calendar">
+      <path id="Line_200" d="M0,.5H17.824" transform="translate(0.093 6.904)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_201" d="M.5.5H.5" transform="translate(12.947 10.81)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_202" d="M.5.5H.5" transform="translate(8.509 10.81)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_203" d="M.5.5H.5" transform="translate(4.063 10.81)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_204" d="M.5.5H.5" transform="translate(12.947 14.696)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_205" d="M.5.5H.5" transform="translate(8.509 14.696)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_206" d="M.5.5H.5" transform="translate(4.063 14.696)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_207" d="M.5,0V3.291" transform="translate(12.544 0)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Line_208" d="M.5,0V3.291" transform="translate(4.466 0)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+      <path id="Path" d="M18,4.643v9.125c0,3.007-1.825,4.652-4.771,4.652H4.771C1.834,18.421,0,16.747,0,13.693V4.643C0,1.636,1.834,0,4.771,0h8.467C16.184,0,18.009,1.636,18,4.643Z" transform="translate(0 1.579)" fill="none" stroke="#004d80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

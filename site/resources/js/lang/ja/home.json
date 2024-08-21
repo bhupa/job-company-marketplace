@@ -1,0 +1,17 @@
+{
+  "home": "ホーム",
+  "seeDetail": "詳細へ",
+  "filter": "フィルター",
+  "description": "説明",
+  "detail": "詳細",
+  "outOfUsers": "ユーザーが不足しています。フィルターを変更して再度お試しください。",
+  "aboutCompany": "企業PR",
+  "itsMatch": "マッチしました",
+  "likedYou": "があなたを気に入っています。",
+  "clearAll": "全てを消去する",
+  "directChat": "ダイレクトチャット",
+  "enterDirectChatMessage": "メッセージを入力してください",
+  "sendRequest": "送信",
+  "sendMessage": "メッセージを送信",
+  "continueSwiping": "スワイプを続く"
+}

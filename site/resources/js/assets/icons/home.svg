@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22">
+  <g id="Icon" transform="translate(1 1)">
+    <path id="Shape" d="M0,7,9,0l9,7V18a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Shape-2" data-name="Shape" d="M0,10V0H6V10" transform="translate(6 10)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

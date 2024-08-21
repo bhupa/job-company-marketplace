@@ -1,0 +1,7 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::group(['namespace' => 'App\Modules\{{moduleNamespace}}\Http\Controllers'], function () {
+    // Define your routes here
+});

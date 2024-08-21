@@ -1,0 +1,45 @@
+{
+  "chat": "チャット",
+  "messages": "メッセージ",
+  "search": "検索",
+  "noChatAvailable": "チャット履歴はありません。",
+  "startConversation": "会話を始めてください。",
+  "typeYourMessage": "メッセージを入力してください...",
+  "roomUnavailable": "チャットルームが利用できません。",
+  "subscribeSuperchat": "このチャットの SUPERCHAT 機能を購読してください。",
+  "lifetime": "一生",
+  "superchatSubscriptionDescription": "購読はこのチャットに対してのみ有効です。 この機能はチャットごとに個別に登録する必要があります。",
+  "features": "特徴",
+  "messageRequest": "メッセージリクエスト",
+  "requestPending": "リクエストを保留",
+  "yourRequestIsPending": "リクエストは保留中です",
+  "requestPendingMessage1": "",
+  "requestPendingMessage2": " がリクエストを受け入れると、会話を開始できます。",
+  "hasSentYouChatRequest": " からチャット リクエストが送信されました。",
+  "adminAssist": {
+    "title": "アドミンサポート",
+    "success": "アドミンにサポートを求める通知が送信されました。",
+    "description": "アドミンにサポートを通知しますか?"
+  },
+  "youCanStartConversation": "これで会話を開始できます。",
+  "deleteChat": {
+    "title": "このマッチングを解除してチャットを削除してもよろしいですか?"
+  },
+  "seen": "既読",
+  "sent": "送信完了",
+  "cannotReplyToConversation": "この会話には返信できません。",
+  "unreadMessages": "未読メッセージ",
+  "unrestrictedChatAccess": "無制限のチャットにアクセスできます!",
+  "unrestrictedChat": {
+    "title": "無制限のチャット",
+    "description": "この機能を有効にするよう管理者に通知しますか?",
+    "success": "確認のためメールをご確認ください。",
+    "payTitle": "本マッチングを開始するため決済方法を選択してください"
+  },
+  "restrictedChat": "制限付きチャット",
+  "chatDetail": "チャットの詳細",
+  "help": "ヘルプ",
+  "deletedAccount": "削除されたアカウント",
+  "deactivatedAccount": "非公開されたアカウント",
+  "bannedAccount": "禁止されたアカウント"
+}

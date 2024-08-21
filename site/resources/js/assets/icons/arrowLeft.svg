@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.824" height="15" viewBox="0 0 8.824 15">
+  <g id="Header" transform="translate(-30 -65)">
+    <g id="Back_Icon" transform="translate(30 65)">
+      <rect id="Back_Icon_Frame_Background_" data-name="Back_Icon [Frame Background]" width="8.824" height="15" fill="none"/>
+      <path id="Back_Icon-2" data-name="Back_Icon" d="M8.413,12.58a1.432,1.432,0,0,1,0,2.007,1.42,1.42,0,0,1-2.006,0L.418,8.479a1.431,1.431,0,0,1,0-2.022L6.407.421a1.405,1.405,0,0,1,2.006,0,1.432,1.432,0,0,1,0,2.007l-5,5.04Z" fill="#545454"/>
+    </g>
+  </g>
+</svg>

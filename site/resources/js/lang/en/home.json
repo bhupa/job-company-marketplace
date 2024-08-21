@@ -1,0 +1,17 @@
+{
+  "home": "Home",
+  "seeDetail": "See Detail",
+  "filter": "Filter",
+  "description": "Description",
+  "detail": "Detail",
+  "outOfUsers": "We are out of users.\nPlease try again by changing the filter.",
+  "aboutCompany": "About Company",
+  "itsMatch": "It's a Match!",
+  "likedYou": "liked you!",
+  "clearAll": "Clear All",
+  "directChat": "Direct Chat",
+  "enterDirectChatMessage": "Please enter a message to be sent to the user.",
+  "sendRequest": "Send Request",
+  "sendMessage": "Send a message",
+  "continueSwiping": "Continue swiping"
+}

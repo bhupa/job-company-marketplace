@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Modules\{{moduleNamespace}}\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use App\Modules\{{moduleNamespace}}\Services\{{className}};
+use Illuminate\Http\Request;
+
+class {{className}} extends Controller
+{
+    protected ${{className}}Service;
+
+    public function __construct({{className}}Service ${{className}}Service)
+    {
+        $this->{{className}}Service = ${{className}}Service;
+    }
+
+    // Define your controller methods here
+}

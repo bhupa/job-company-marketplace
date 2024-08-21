@@ -1,0 +1,81 @@
+<?php
+
+namespace App\Http\Controllers\Api\V1;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use Stripe\Exception\SignatureVerificationException;
+use Stripe\Stripe;
+use Stripe\Subscription;
+use Stripe\Webhook;
+
+class SubscriptionController extends BaseController
+{
+    public function webhook(Request $request)
+    {
+        $webHookSecret = env('STRIPE_WEBHOOK_SECRET');
+        $plyload = $request->getContent();
+        $sigHeader = $request->header('Stripe-Signature');
+
+  Stripe::setApiKey(env('STRIPE_SECRET'));
+        try {
+            $event = Webhook::constructEvent(
+                $plyload, $sigHeader, $webHookSecret
+            );
+
+            if ($event->type === 'customer.subscription.updated') {
+                $subscriptionId = $event->data['object']['id'];
+
+                $subscription = Subscription::retrieve($subscriptionId);
+//                Log::info('event --subscription-items: '.print_r($subscription->items->data, true));
+
+                Log::info('event --subscription-items: '.$subscriptionId);                
+Log::info('Subscription Object: ' . json_encode($subscription));
+                // Log::info('subscription plan --id',$subscription);
+                $desiredPlanId = 'prod_Ofk5nTIzOKpiJk';
+
+                if ($subscription->items->data[0]->plan->product === $desiredPlanId) {
+                    // Your logic to calculate the new end timestamp
+                    $currentPeriodEnd = strtotime($subscription->current_period_end);
+                    $newEndTimestamp = strtotime('+6 month', $currentPeriodEnd);
+
+                    // Update the subscription end date in the database
+                    $subscription->update(['ends_at' => date('Y-m-d H:i:s', $newEndTimestamp)]);
+                }
+            }
+
+            return response()->json(['message' => 'Webhook received'], 200);
+        } catch (SignatureVerificationException $e) {
+            Log::info('event --error--message--details'.$e->getMessage());
+
+            return $this->errors(['message' => $e->getMessage()], 400);
+        }
+    }
+
+    public function addPlan(Request $request)
+    {
+        Stripe::setApiKey(env('STRIPE_SECRET'));
+        $token = $request->stripeToken;
+        $user = auth()->user();
+        try {
+            if (is_null($user->stripe_id)) {
+                // If the user doesn't have a Stripe customer ID, create one
+                $stripeCustomer = $user->createAsStripeCustomer();
+            } else {
+                // If the user already has a Stripe customer ID, retrieve it
+                $stripeCustomer = $user->asStripeCustomer();
+            }
+
+            // Create or update the subscription
+            $result = $user->newSubscription('default', $request->stripe_plan)->create('pm_card_visa');
+
+            // Return a success response
+            return $this->success(['message' => 'Subscription created or updated'], 200);
+            // $result = $user->newSubscription('default', $request->stripe_plan)->create('pm_card_visa');
+
+            // return $this->success($result, 200);
+        } catch (\Exception $e) {
+            return $this->errors(['message' => $e->getMessage()], 400);
+        }
+    }
+}
